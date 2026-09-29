@@ -9,10 +9,18 @@ body:
         **Title:** the outcome, in the imperative, 60 characters or less. No `[Feature]` prefix; this form sets the type.
         Rules and examples: [ISSUES.md](https://github.com/NorbanDev/.github/blob/main/ISSUES.md)
   - type: textarea
+    id: in_short
+    attributes:
+      label: In short
+      description: 2 or 3 sentences, 60 words at most, that anyone on the team understands. Use product words, not code names or file paths.
+      placeholder: Ops cannot find an archived lead from the Backoffice chat list, so they lose track of past contacts.
+    validations:
+      required: true
+  - type: textarea
     id: problem
     attributes:
       label: Problem
-      description: What users or the team cannot do today, and why it matters now, in 1–3 sentences.
+      description: What users or the team cannot do today, why it matters now, and how it works today. Evidence goes under Context.
       placeholder: When a lead is archived, its link disappears from the Backoffice chat list, so ops lose track of past contacts.
     validations:
       required: true
