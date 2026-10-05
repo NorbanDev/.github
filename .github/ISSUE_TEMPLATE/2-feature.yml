@@ -1,7 +1,6 @@
 name: Feature
 description: Users or the team need something the product does not do.
 type: Feature
-labels: ["feature"]
 body:
   - type: markdown
     attributes:
