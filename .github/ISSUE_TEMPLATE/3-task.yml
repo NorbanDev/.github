@@ -1,7 +1,6 @@
 name: Task
 description: Engineering work with no user-visible change, such as a refactor, dependency, infrastructure, CI or docs.
 type: Task
-labels: ["chore"]
 body:
   - type: markdown
     attributes:

@@ -4,6 +4,8 @@ People read an issue in a list first and open it second. These rules are for bot
 
 Pick the form: **Bug** when something is broken, **Feature** when users or the team need something new, **Task** for engineering work nobody outside the team sees.
 
+The form sets the issue type, and the type is the only classifier. Add no kind or area label such as `bug`, `chore`, `frontend` or `backend`: the type says what kind of work it is and the title says where. Labels carry workflow state only, such as `claude: fix` or `needs-decision`.
+
 ## Title
 
 - 60 characters or less. 70 is the hard limit.
